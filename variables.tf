@@ -17,6 +17,3 @@ variable "account_number" {}
 #variable "emea_project_id" {}
 #variable "emea_account_number" {}
 
-#27
-variable "vipin_client_id" {}
-variable "vipin_client_secret" {}
