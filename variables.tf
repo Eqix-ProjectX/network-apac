@@ -9,6 +9,7 @@ variable "code" {}
 variable "project_id" {}
 variable "account_number" {}
 
+
 variable "emea_type" {}
 variable "emea_metro_code" {}
 variable "emea_emails" {}
@@ -36,3 +37,4 @@ variable "notifications_emails" {
   description = "Array of contact emails"
   type        = list(string)
 }
+
