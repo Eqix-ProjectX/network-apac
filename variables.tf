@@ -19,10 +19,7 @@ variable "emea_project_id" {}
 variable "emea_account_number" {}
 
 // EVPLAN vars
-variable "network_name" {
-  description = "Network name. An alpha-numeric 24 characters string which can include only hyphens and underscores"
-  type        = string
-}
+variable "network_name" {}
 variable "network_type" {
   description = "Defines the connection type like VG_VC, EVPL_VC, EPL_VC, EC_VC, IP_VC, ACCESS_EPL_VC"
   type        = string
