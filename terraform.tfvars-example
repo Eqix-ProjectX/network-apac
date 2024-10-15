@@ -13,3 +13,6 @@ emea_purchase_order_number = ""
 emea_code                  = "STANDARD"
 emea_project_id            = ""
 emea_account_number        = ""
+
+network_type = "EVPLAN"
+scope = "GLOBAL"
