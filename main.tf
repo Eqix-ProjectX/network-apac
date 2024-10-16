@@ -16,7 +16,7 @@ module "singapore" {
 
 module "evplan-sg" {
   source               = "git::github.com/Eqix-ProjectX/terraform-equinix-evplan"
-  network_name         = "evplan-apac"
+  network_name         = var.network_name 
   network_type         = var.network_type
   scope                = var.scope
   notifications_emails = var.notifications_emails
