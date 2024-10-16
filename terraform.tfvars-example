@@ -16,4 +16,6 @@ emea_account_number        = ""
 
 network_type = "EVPLAN"
 scope = "GLOBAL"
+network_name       = "EVPLAN_test"
+notifications_emails  = ["example@ap.test"]
 
