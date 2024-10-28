@@ -1,15 +1,15 @@
-type                  = "XF_ROUTER"
-metro_code            = "SG"
-emails                = ""
-purchase_order_number = ""
-code                  = "STANDARD"
-project_id            = ""
-account_number        = ""
 
-#emea_type                  = "XF_ROUTER"
-#emea_metro_code            = "AM"
-#emea_emails                = ""
-#emea_purchase_order_number = ""
-#emea_code                  = "STANDARD"
-#emea_project_id            = ""
-#emea_account_number        = ""
+
+type                  = "XF_ROUTER"
+metro_code            = "DC"
+emails                = "example@test"  # replace with your email ID
+purchase_order_number = "1-323292" # replace with your purchase order 
+code                  = "STANDARD" 
+project_id            = "1234" # replace with your project id
+account_number        = "ABCD" # replace with your account number 
+
+network_type = "EVPLAN"
+scope = "GLOBAL"
+network_name       = "EVPLAN_yourEVPLname" # replace with your EVPL network name 
+notifications_emails  = ["example@test"] # replace with your email ID 
+
